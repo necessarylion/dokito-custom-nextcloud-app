@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<info xmlns:xsi= "http://www.w3.org/2001/XMLSchema-instance"
+      xsi:noNamespaceSchemaLocation="https://apps.nextcloud.com/schema/apps/info.xsd">
+    <id>doctorlists</id>
+    <name>Doctor Lists</name>
+    <summary>The page for doctors create/update</summary>
+    <description><![CDATA[#This app is to show all doctor listing
+# To create or update information about doctor]]></description>
+    <version>0.0.1</version>
+    <licence>agpl</licence>
+    <author mail="aj.kumarsharno@gmail.com" homepage="https://www.zinkyawkyaw.com">AJ</author>
+    <namespace>DoctorLists</namespace>
+    <category>customization</category>
+    <category>dashboard</category>
+    <bugs>http://doctors.dev.cloudme.cloud/dokito</bugs>
+    <dependencies>
+        <nextcloud min-version="15" max-version="15"/>
+    </dependencies>
+    <navigations>
+        <navigation>
+            <name>Doctor Lists</name>
+            <route>doctorlists.page.index</route>
+        </navigation>
+    </navigations>
+</info>
